@@ -10,9 +10,9 @@ public class pemilihanBilangan24 {
         System.out.print("Masukkan angka: ");
         int angka = PB1.nextInt();
 
-        if (angka % 2 == 0)
-           System.out.println("Angka "+angka+" bilangan genap");
-        else
-           System.out.println("Angka "+angka+" bilangan ganjil");
+        String hasil;
+
+        hasil = (angka % 2 == 0) ? " bilangan ganjil" : " bilangan genap";
+        System.out.println(angka + " Adalah" + hasil);
     }
 }
