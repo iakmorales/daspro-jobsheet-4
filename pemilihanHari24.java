@@ -7,7 +7,7 @@ public class pemilihanHari24 {
         System.out.print("Input day name: ");
         dayName = PH.nextLine();
 
-        switch (dayName.toLowerCase()) {
+        switch (dayName) {
             case "monday":
             case "tuesday":
             case "wednesday":
